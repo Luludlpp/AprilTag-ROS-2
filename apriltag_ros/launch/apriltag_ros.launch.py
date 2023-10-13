@@ -30,7 +30,8 @@ from launch.actions import ExecuteProcess
 def generate_launch_description():
     return LaunchDescription([
         ExecuteProcess(
-            cmd=[['ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/ros2_ws/src/AprilTag-ROS-2/usb_cam/config/params_2.yaml']],
+            # NOTE: Change "mp3_ros2_ws" to what your workspace is !!!
+            cmd=[['ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/mp3_ros2_ws/src/AprilTag-ROS-2/usb_cam/config/params_2.yaml']],
             shell=True,
         ),
         ExecuteProcess(
