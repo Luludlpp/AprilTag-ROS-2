@@ -1,6 +1,8 @@
+# v4l2-ctl --list-devices
+
 /**:
     ros__parameters:
-      video_device: "/dev/video5"
+      video_device: "/dev/video4"
       framerate: 15.0
       io_method: "mmap"
       frame_id: "camera2"

@@ -29,15 +29,28 @@ from launch.actions import ExecuteProcess
 
 def generate_launch_description():
     return LaunchDescription([
+        # run camera driver node
         ExecuteProcess(
             # NOTE: Change "mp3_ros2_ws" to what your workspace is !!!
             cmd=[['ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/mp3_ros2_ws/src/AprilTag-ROS-2/usb_cam/config/params_2.yaml']],
             shell=True,
         ),
+        # run image transport node
+        ExecuteProcess(
+            cmd=[['ros2 run image_transport republish compressed raw --ros-args --remap']],
+            shell=True,
+        ),
+        # don't really know what this does...
+        ExecuteProcess(
+            cmd=[['run rqt_image_view rqt_image_view']],
+            shell=True,
+        ),
+        # run april tag detection node
         ExecuteProcess(
             cmd=[['ros2 run apriltag_ros apriltag_node --ros-args -r image_rect:=/image_raw -r camera_info:=/camera_info --params-file `ros2 pkg prefix apriltag_ros`/share/apriltag_ros/cfg/tags_36h11.yaml']],
             shell=True,
         ),
+        # run rviz2 vizualizer
         Node(
             package='rviz2',
             executable='rviz2',

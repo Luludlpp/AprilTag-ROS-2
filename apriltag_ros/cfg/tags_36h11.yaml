@@ -14,6 +14,7 @@
             refine: 1           # snap to strong gradients
             sharpening: 0.25    # sharpening of decoded images
             debug: 0            # write additional debugging images to current working directory
+            publish_tf: True    # publish the detected tags 
 
         # optional list of tags to target detection
         tag:
