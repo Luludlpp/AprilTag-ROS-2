@@ -1,0 +1,102 @@
+[0.078s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag
+[1.018s] -- The C compiler identification is GNU 11.4.0
+[1.018s] -- The CXX compiler identification is GNU 11.4.0
+[1.019s] -- Detecting C compiler ABI info
+[1.019s] -- Detecting C compiler ABI info - done
+[1.019s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.019s] -- Detecting C compile features
+[1.019s] -- Detecting C compile features - done
+[1.019s] -- Detecting CXX compiler ABI info
+[1.019s] -- Detecting CXX compiler ABI info - done
+[1.019s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.019s] -- Detecting CXX compile features
+[1.020s] -- Detecting CXX compile features - done
+[1.020s] -- Setting build type to 'Release' as none was specified.
+[1.020s] -- Looking for pthread.h
+[1.020s] -- Looking for pthread.h - found
+[1.020s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.020s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.020s] -- Found Threads: TRUE  
+[1.021s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[1.632s] -- Configuring done
+[1.653s] -- Generating done
+[1.655s] -- Build files have been written to: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag
+[1.670s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag
+[1.671s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag -- -j12 -l12
+[1.773s] [  2%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o[0m
+[1.780s] [  5%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[1.783s] [  7%] [32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[1.784s] [ 10%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[1.785s] [ 12%] [32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[1.793s] [ 15%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o[0m
+[1.799s] [ 17%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[1.808s] [ 20%] [32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o[0m
+[1.808s] [ 22%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o[0m
+[1.822s] [ 25%] [32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[1.899s] [ 27%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o[0m
+[1.908s] [ 30%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o[0m
+[2.343s] [ 32%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o[0m
+[2.540s] [ 35%] [32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[2.580s] [ 37%] [32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[2.590s] [ 40%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[2.644s] [ 42%] [32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[2.660s] [ 45%] [32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[2.703s] [ 47%] [32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[2.812s] [ 50%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[2.849s] [ 52%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[2.861s] [ 55%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[2.890s] [ 57%] [32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[2.926s] [ 60%] [32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[3.013s] [ 62%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[3.177s] [ 65%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[3.181s] [ 67%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o[0m
+[3.197s] [ 70%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o[0m
+[3.199s] [ 72%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o[0m
+[3.222s] [ 75%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o[0m
+[3.329s] [ 77%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o[0m
+[4.691s] [ 80%] [32m[1mLinking C shared library libapriltag.so[0m
+[4.880s] [ 80%] Built target apriltag
+[4.953s] [ 82%] [34m[1mGenerating apriltag_detect.docstring.h[0m
+[4.954s] [ 90%] [34m[1mGenerating apriltag_py_type.docstring.h[0m
+[4.954s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[4.955s] [ 87%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[4.979s] [ 92%] [34m[1mGenerating apriltag_pywrap.o[0m
+[5.229s] [ 95%] [32m[1mLinking C executable apriltag_demo[0m
+[5.250s] [ 97%] [34m[1mGenerating apriltag.cpython-310-x86_64-linux-gnu.so[0m
+[5.371s] [ 97%] Built target apriltag_python
+[5.404s] [ 97%] Built target apriltag_demo
+[10.503s] [100%] [32m[1mLinking CXX executable opencv_demo[0m
+[13.219s] [100%] Built target opencv_demo
+[13.272s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag -- -j12 -l12
+[13.415s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/cmake/build.py", line 35, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag', '--target', 'help'] to pass: gmake: *** [Makefile:1013: help] Interrupt
+

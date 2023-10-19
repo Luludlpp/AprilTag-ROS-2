@@ -1,0 +1,4 @@
+[console_scripts]
+camera_lander = camera_lander.lander_node:main
+talker = camera_lander.publisher_member_function:main
+

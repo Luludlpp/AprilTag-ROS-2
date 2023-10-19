@@ -1,0 +1,585 @@
+[0.344s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.344s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f83361e09d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f833698d690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f833698d690>>)
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.377s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag' with type 'ros.cmake' and name 'apriltag'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_info) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(camera_lander) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'camera_lander' with type 'ros.ament_python' and name 'camera_lander'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_common) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/camera_calibration' with type 'ros.ament_python' and name 'camera_calibration'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/depth_image_proc' with type 'ros.ament_cmake' and name 'depth_image_proc'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_pipeline' with type 'ros.ament_cmake' and name 'image_pipeline'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_proc' with type 'ros.ament_cmake' and name 'image_proc'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_rotate' with type 'ros.ament_cmake' and name 'image_rotate'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'ros'
+[0.413s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_view' with type 'ros.ament_cmake' and name 'image_view'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'ros'
+[0.415s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/stereo_image_proc' with type 'ros.ament_cmake' and name 'stereo_image_proc'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['python_setup_py']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/tracetools_image_pipeline' with type 'ros.ament_cmake' and name 'tracetools_image_pipeline'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag', 'symlink_install': False, 'test_result_base': None}
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/camera_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'cmake_target' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'camera_lander' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'camera_lander' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_lander', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/camera_lander', 'symlink_install': False, 'test_result_base': None}
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'depth_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/depth_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/depth_image_proc', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/depth_image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.523s] DEBUG:colcon.colcon_core.verb:Building package 'image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_publisher', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'image_rotate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_rotate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_rotate', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_rotate', 'symlink_install': False, 'test_result_base': None}
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'image_view' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_view', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_view', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_view', 'symlink_install': False, 'test_result_base': None}
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.526s] DEBUG:colcon.colcon_core.verb:Building package 'tracetools_image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/tracetools_image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.528s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_ros', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_proc', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'stereo_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/stereo_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/stereo_image_proc', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/stereo_image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_pipeline', 'merge_install': False, 'path': '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[0.533s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/tracetools_image_pipeline' with build type 'ament_cmake'
+[0.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/tracetools_image_pipeline'
+[0.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.546s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag' with build type 'cmake'
+[0.546s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag'
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_msgs' with build type 'ament_cmake'
+[0.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_msgs'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.559s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/camera_calibration' with build type 'ament_python'
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'ament_prefix_path')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.sh'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/depth_image_proc' with build type 'ament_cmake'
+[0.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/depth_image_proc'
+[0.573s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_publisher' with build type 'ament_cmake'
+[0.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_publisher'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_rotate' with build type 'ament_cmake'
+[0.585s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_rotate'
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_view' with build type 'ament_cmake'
+[0.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_view'
+[0.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.599s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/camera_lander' with build type 'ament_python'
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_lander', 'ament_prefix_path')
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/hook/ament_prefix_path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/hook/ament_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/hook/ament_prefix_path.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/usb_cam' with build type 'ament_cmake'
+[0.611s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/usb_cam'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs
+[0.973s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/camera_calibration'
+[0.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/depth_image_proc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/depth_image_proc
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_publisher
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_rotate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_rotate
+[0.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_view
+[1.549s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/camera_lander'
+[1.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/usb_cam -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam
+[2.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline -- -j12 -l12
+[2.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag
+[2.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag -- -j12 -l12
+[2.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/camera_calibration': PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/prefix_override:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/build install --record /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/install.log --single-version-externally-managed
+[2.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/camera_lander': PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_lander/prefix_override:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/camera_lander build --build-base /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_lander/build install --record /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_lander/install.log --single-version-externally-managed
+[3.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline -- -j12 -l12
+[3.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/prefix_override:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/build install --record /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/install.log --single-version-externally-managed
+[3.682s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration' for CMake module files
+[3.682s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration' for CMake config files
+[3.683s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib'
+[3.683s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/bin'
+[3.683s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/pkgconfig/camera_calibration.pc'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/python3.10/site-packages'
+[3.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'pythonpath')
+[3.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/hook/pythonpath.ps1'
+[3.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/hook/pythonpath.dsv'
+[3.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/hook/pythonpath.sh'
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/bin'
+[3.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration)
+[3.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/package.ps1'
+[3.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/package.dsv'
+[3.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/package.sh'
+[3.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/package.bash'
+[3.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/camera_calibration/package.zsh'
+[3.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/share/colcon-core/packages/camera_calibration)
+[3.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline
+[4.284s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander' for CMake module files
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander' for CMake config files
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/lib'
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/bin'
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/lib/pkgconfig/camera_lander.pc'
+[4.287s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/lib/python3.10/site-packages'
+[4.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_lander', 'pythonpath')
+[4.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/hook/pythonpath.ps1'
+[4.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/camera_lander' returned '0': PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_lander/prefix_override:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/camera_lander build --build-base /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_lander/build install --record /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_lander/install.log --single-version-externally-managed
+[4.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/hook/pythonpath.dsv'
+[4.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/hook/pythonpath.sh'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/bin'
+[4.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_lander)
+[4.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/package.ps1'
+[4.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/package.dsv'
+[4.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/package.sh'
+[4.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/package.bash'
+[4.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/camera_lander/package.zsh'
+[4.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_lander/share/colcon-core/packages/camera_lander)
+[4.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[4.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/tracetools_image_pipeline
+[4.318s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline' for CMake module files
+[4.319s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline' for CMake config files
+[4.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[4.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[4.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[4.326s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib'
+[4.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[4.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[4.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[4.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[4.332s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/bin'
+[4.332s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[4.332s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib/python3.10/site-packages'
+[4.333s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/bin'
+[4.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[4.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[4.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[4.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[4.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[4.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[4.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[4.622s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline' for CMake module files
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline' for CMake config files
+[4.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[4.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[4.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[4.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[4.629s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib'
+[4.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[4.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[4.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[4.664s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/bin'
+[4.664s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[4.665s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib/python3.10/site-packages'
+[4.665s] Level 1:colcon.colcon_core.environment:checking '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/bin'
+[4.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[4.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[4.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[4.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[4.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[4.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[4.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_proc' with build type 'ament_cmake'
+[4.689s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_proc'
+[4.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_proc': AMENT_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_proc
+[5.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs
+[5.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs -- -j12 -l12
+[5.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_publisher
+[5.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher -- -j12 -l12
+[6.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_view
+[6.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_view -- -j12 -l12
+[6.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_rotate
+[6.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_rotate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_rotate -- -j12 -l12
+[6.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/depth_image_proc
+[6.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/depth_image_proc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/depth_image_proc -- -j12 -l12
+[8.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/usb_cam -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam
+[8.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam -- -j12 -l12
+[12.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_proc' returned '0': AMENT_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/image_proc
+[12.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_proc': AMENT_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_proc -- -j12 -l12
+[13.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag -- -j12 -l12
+[13.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[13.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[14.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[14.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.052s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.064s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.090s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/local_setup.ps1'
+[14.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/_local_setup_util_ps1.py'
+[14.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/setup.ps1'
+[14.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/local_setup.sh'
+[14.099s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/_local_setup_util_sh.py'
+[14.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/setup.sh'
+[14.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/local_setup.bash'
+[14.103s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/setup.bash'
+[14.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/local_setup.zsh'
+[14.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/setup.zsh'
