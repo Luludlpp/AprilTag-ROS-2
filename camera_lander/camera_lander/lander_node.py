@@ -4,6 +4,8 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from tf2_msgs.msg import TFMessage
 from geometry_msgs.msg import TransformStamped, Transform, Vector3
+import pygame
+from pathlib import Path 
 
 
 class LanderNode(Node):
@@ -24,6 +26,10 @@ class LanderNode(Node):
         self.goal_position = Vector3(x=0.0, y=0.0, z=0.0) # goal landing position
         self.position = Vector3 # current position of camera        
         self.error = Vector3 # current positional error
+
+        pygame.init()
+        pygame.mixer.init()
+
     
     def listener_calllback(self, msg: TFMessage):
 
@@ -40,13 +46,41 @@ class LanderNode(Node):
                 self.get_logger().info(f"camera position: {self.position}")
         
         # get positional error
-        self.error = self.goal_position[] - self.position
-    
+        #self.error = self.goal_position[] - self.position
+        self.error.x = self.goal_position.x - self.position.x
+        self.error.y = self.goal_position.y - self.position.y
+        self.error.z = self.goal_position.z - self.position.z
+
+        self.play_sound()
+        
     def audio_feedback(self):
         pass
 
-
-
+    def play_sound(self): 
+        if abs(self.error.x) > 0.0075:
+            if self.error.x > 0:
+                print ("Right")
+                pygame.mixer.music.load("sounds/right.mp3")
+                pygame.mixer.music.play()
+            else: 
+                print ("Left")
+                pygame.mixer.music.load("sounds/left.mp3")
+                pygame.mixer.music.play()
+        elif abs(self.error.y) > 0.0075:
+            if self.error.y > 0:
+                print ("Back")
+                pygame.mixer.music.load("sounds/back.mp3")
+                pygame.mixer.music.play()
+            else: 
+                print ("Forward")
+                pygame.mixer.music.load("sounds/forward.mp3")
+                pygame.mixer.music.play()
+        elif abs(self.error.x) < 0.0075 and abs (self.error.y) < 0.0075:
+            print ("Descend")
+            pygame.mixer.music.load("sounds/descend.mp3")
+            pygame.mixer.music.play()
+        else: 
+            pass 
 
 def main(args=None):
     rclpy.init(args=args)
