@@ -11,10 +11,10 @@ from pathlib import Path
 class LanderNode(Node):
 
     def __init__(self):
-        # Call the rclpy Node supercalss constructor (black box low-level shit, look into if you want)
+        # Call the rclpy Node supercalss constructor (black b>ox low-level shit, look into if you want)
         super().__init__('lander_node')
 
-        # create a subscriber object to get april tag TFs from the april tag
+        # create a subscriber object to get april tag TFs from the april tag node
         self.april_tag_subscriber_ = self.create_subscription(
             msg_type = TFMessage,
             topic = "tf",
@@ -24,9 +24,11 @@ class LanderNode(Node):
         
         # system state parameters
         self.goal_position = Vector3(x=0.0, y=0.0, z=0.0) # goal landing position
-        self.position = Vector3 # current position of camera        
-        self.error = Vector3 # current positional error
+        self.position = Vector3() # current position of camera        
+        self.error = Vector3() # current positional error
 
+        # initialize google tts and sound output stuff
+        self.sounds_dir_path = "src/AprilTag-ROS-2/camera_lander/resource/sounds/"
         pygame.init()
         pygame.mixer.init()
 
@@ -47,9 +49,9 @@ class LanderNode(Node):
         
         # get positional error
         #self.error = self.goal_position[] - self.position
-        self.error.x = self.goal_position.x - self.position.x
-        self.error.y = self.goal_position.y - self.position.y
-        self.error.z = self.goal_position.z - self.position.z
+        self.error.x = -self.goal_position.x + self.position.x
+        self.error.y = -self.goal_position.y + self.position.y
+        self.error.z = -self.goal_position.z + self.position.z
 
         self.play_sound()
         
@@ -57,28 +59,36 @@ class LanderNode(Node):
         pass
 
     def play_sound(self): 
+        # DEBUG
+        print(pygame.mixer.music.get_busy())
+
         if abs(self.error.x) > 0.0075:
             if self.error.x > 0:
                 print ("Right")
-                pygame.mixer.music.load("sounds/right.mp3")
-                pygame.mixer.music.play()
+                if not pygame.mixer.music.get_busy():
+                    pygame.mixer.music.load(self.sounds_dir_path + "right.mp3")
+                    pygame.mixer.music.play()
             else: 
                 print ("Left")
-                pygame.mixer.music.load("sounds/left.mp3")
-                pygame.mixer.music.play()
+                if not pygame.mixer.music.get_busy():
+                    pygame.mixer.music.load(self.sounds_dir_path + "left.mp3")
+                    pygame.mixer.music.play()
         elif abs(self.error.y) > 0.0075:
             if self.error.y > 0:
                 print ("Back")
-                pygame.mixer.music.load("sounds/back.mp3")
-                pygame.mixer.music.play()
+                if not pygame.mixer.music.get_busy():
+                    pygame.mixer.music.load(self.sounds_dir_path + "back.mp3")
+                    pygame.mixer.music.play()
             else: 
                 print ("Forward")
-                pygame.mixer.music.load("sounds/forward.mp3")
-                pygame.mixer.music.play()
+                if not pygame.mixer.music.get_busy():
+                    pygame.mixer.music.load(self.sounds_dir_path + "forward.mp3")
+                    pygame.mixer.music.play()
         elif abs(self.error.x) < 0.0075 and abs (self.error.y) < 0.0075:
             print ("Descend")
-            pygame.mixer.music.load("sounds/descend.mp3")
-            pygame.mixer.music.play()
+            if not pygame.mixer.music.get_busy():
+                pygame.mixer.music.load(self.sounds_dir_path + "descend.mp3")
+                pygame.mixer.music.play()
         else: 
             pass 
 

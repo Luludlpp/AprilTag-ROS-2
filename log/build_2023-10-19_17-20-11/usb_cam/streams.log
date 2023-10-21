@@ -1,0 +1,108 @@
+[1.219s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam -- -j12 -l12
+[1.512s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.556s] [  7%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[1.583s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.594s] [ 21%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[1.652s] [ 35%] Built target gtest_main
+[7.655s] [ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[8.828s] [ 42%] Built target usb_cam
+[8.938s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o[0m
+[12.234s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.454s] [ 57%] Built target gtest
+[12.607s] [ 64%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[12.622s] [ 71%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[15.544s] [ 78%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[15.839s] [ 85%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[16.497s] [ 85%] Built target test_usb_cam_utils
+[16.555s] [ 85%] Built target usb_cam_node_exe
+[16.570s] [ 92%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[17.436s] [ 92%] Built target test_pixel_formats
+[27.243s] [100%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[28.094s] [100%] Built target usb_cam_node
+[28.144s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam -- -j12 -l12
+[28.475s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam
+[28.495s] -- Install configuration: ""
+[28.495s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/environment/library_path.sh
+[28.496s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[28.496s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[28.496s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[28.496s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/lib/usb_cam/show_image.py
+[28.496s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/lib/libusb_cam.so
+[28.539s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/lib/libusb_cam_node.so
+[28.543s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/lib/libusb_cam_node.so" to ""
+[28.544s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include
+[28.544s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam
+[28.545s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/utils.hpp
+[28.545s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/constants.hpp
+[28.545s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/usb_cam.hpp
+[28.549s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/conversions.hpp
+[28.550s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[28.555s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats
+[28.556s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/utils.hpp
+[28.557s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/mono.hpp
+[28.557s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/m420.hpp
+[28.558s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[28.559s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[28.560s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[28.561s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[28.562s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[28.563s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/lib/libusb_cam_node.so
+[28.563s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/launch
+[28.564s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/launch/camera_config.py
+[28.565s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[28.566s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/launch/__init__.py
+[28.567s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/config
+[28.567s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[28.576s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/config/params_2.yaml
+[28.577s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/config/params_1.yaml
+[28.577s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/config/camera_params.yaml
+[28.579s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[28.581s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[28.582s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[28.583s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[28.585s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/environment/path.sh
+[28.586s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/environment/path.dsv
+[28.587s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/local_setup.bash
+[28.588s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/local_setup.sh
+[28.588s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/local_setup.zsh
+[28.589s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/local_setup.dsv
+[28.590s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/package.dsv
+[28.591s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[28.592s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[28.593s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[28.594s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.594s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.595s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[28.596s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[28.597s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/usb_cam/share/usb_cam/package.xml
+[28.613s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam
+[28.754s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/usb_cam', '--target', 'help'] to pass: gmake: *** [Makefile:418: help] Interrupt
+

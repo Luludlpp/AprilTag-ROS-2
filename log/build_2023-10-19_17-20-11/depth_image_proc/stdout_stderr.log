@@ -1,0 +1,25 @@
+[  8%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/convert_metric.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/disparity.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/conversions.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz_radial.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/crop_foremost.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi_radial.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/register.cpp.o[0m
+In file included from [01m[K/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/depth_image_proc/src/register.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/depth_image_proc.dir/build.make:216: CMakeFiles/depth_image_proc.dir/src/register.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/depth_image_proc.dir/build.make:160: CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/depth_image_proc.dir/build.make:188: CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi_radial.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/depth_image_proc.dir/build.make:202: CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/depth_image_proc.dir/build.make:146: CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/depth_image_proc.dir/build.make:118: CMakeFiles/depth_image_proc.dir/src/disparity.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/depth_image_proc.dir/all] Interrupt
+gmake: *** wait: No child processes.  Stop.
+gmake: *** Waiting for unfinished jobs....
+gmake: *** wait: No child processes.  Stop.

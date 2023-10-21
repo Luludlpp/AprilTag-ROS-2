@@ -4,37 +4,26 @@ import os
 from pathlib import Path 
 import time 
 
-pygame.init()
-pygame.mixer.init()
-
-goRight = 'go right'
-goLeft = 'go left'
-goForward = 'go forward'
-goBack = 'go back'
-goDescend = 'Descend'
-
+# Google TTS setup
+sounds_dir_path = "src/AprilTag-ROS-2/camera_lander/resource/sounds/"
 language = 'en'
 
-#if gtts doesnt work then comment out 
-right = gTTS(text=goRight, lang=language, slow=False) 
-left = gTTS(text=goLeft, lang=language, slow=False) 
-forward = gTTS(text=goForward, lang=language, slow=False) 
-back = gTTS(text=goBack, lang=language, slow=False) 
-descend = gTTS(text=goDescend, lang=language, slow=False) 
+# generate TTS sound snippets
+voice_snippets = {'right':   'go right',
+                  'left':    'go left',
+                  'back':    'go back',
+                  'forward': 'go forward',
+                  'descend': 'descend'
+                 }
 
-right.save("right.mp3")
-left.save("left.mp3")
-forward.save("forward.mp3")
-back.save("back.mp3")
-descend.save("descend.mp3")
+for name, text in voice_snippets.items():
+    sound = gTTS(text=text, lang=language, slow=False)
+    sound.save(sounds_dir_path + name + ".mp3")
 
-
-
-
-
-sound = pygame.mixer.Sound("output.wav")
-
-pygame.mixer.music.load("sounds/descend.mp3")
-pygame.mixer.music.play()
+# Initialize PyGame for playing sounds
+pygame.init()
+pygame.mixer.init()
+# pygame.mixer.music.load(sounds_dir_path + "descend.mp3")
+# pygame.mixer.music.play()
 
 time.sleep(3)

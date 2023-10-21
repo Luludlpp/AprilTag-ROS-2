@@ -1,0 +1,11 @@
+[  8%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/convert_metric.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/disparity.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/conversions.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz_radial.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/crop_foremost.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi_radial.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/register.cpp.o[0m

@@ -1,0 +1,4 @@
+Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher -- -j12 -l12
+Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher -- -j12 -l12
+Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher
+Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/image_publisher

@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[ 50%] Built target image_rotate
+[ 75%] [32mBuilding CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o[0m

@@ -1,0 +1,216 @@
+[0.073s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs -- -j12 -l12
+[1.363s] [35m[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_generator_c[0m
+[1.363s] [  2%] Built target apriltag_msgs__cpp
+[1.363s] [ 12%] Built target apriltag_msgs__rosidl_generator_c
+[1.363s] [ 12%] Built target ament_cmake_python_copy_apriltag_msgs
+[1.363s] [35m[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_cpp[0m
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_c[0m
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_introspection_c[0m
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.364s] [ 25%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[1.364s] [ 34%] Built target apriltag_msgs__rosidl_typesupport_c
+[1.365s] [ 40%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[1.365s] [ 46%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[1.365s] [ 57%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[1.365s] [ 68%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[1.365s] running egg_info
+[1.365s] writing apriltag_msgs.egg-info/PKG-INFO
+[1.365s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[1.366s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[1.366s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[1.379s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[1.379s] [ 68%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[1.379s] [ 70%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.379s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[1.384s] [ 76%] Built target apriltag_msgs
+[1.498s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.893s] [ 78%] Built target apriltag_msgs__py
+[6.071s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o[0m
+[6.083s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[6.110s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[6.681s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so[0m
+[6.928s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[7.079s] [ 89%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.142s] [ 91%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.180s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.419s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.542s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.619s] [ 97%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.790s] [ 97%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[7.874s] [100%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.089s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[8.186s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs -- -j12 -l12
+[9.255s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs
+[9.282s] -- Install configuration: ""
+[9.284s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[9.284s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[9.284s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[9.284s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[9.284s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[9.284s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[9.285s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[9.285s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[9.285s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[9.295s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[9.296s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[9.297s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[9.300s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[9.300s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[9.301s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[9.302s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[9.303s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[9.303s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.303s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[9.312s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[9.313s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[9.313s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[9.313s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[9.313s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""
+[9.313s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[9.313s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[9.313s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[9.313s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[9.313s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[9.313s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[9.314s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.314s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[9.314s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.314s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[9.314s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[9.314s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[9.314s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[9.314s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[9.314s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[9.315s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[9.315s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[9.315s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[9.315s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.315s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[9.315s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.315s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[9.315s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""
+[9.315s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[9.315s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[9.316s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[9.316s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[9.316s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[9.316s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[9.316s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[9.325s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[9.326s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[9.326s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[9.326s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[9.326s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[9.327s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[9.327s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[9.327s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[9.327s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[9.327s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[9.327s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[9.327s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[9.327s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[9.328s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[9.328s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[9.328s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.328s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.328s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.328s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[9.328s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[9.328s] -- Up-to-date: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[9.328s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[9.329s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[9.329s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[9.329s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[9.329s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[9.329s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[9.329s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[9.329s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.330s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[9.330s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""
+[9.331s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[9.331s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[9.331s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.1.0-py3.10.egg-info
+[9.332s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[9.332s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[9.333s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[9.333s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[9.333s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[9.334s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[9.334s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c
+[9.335s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[9.335s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[9.336s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[9.336s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py
+[9.336s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[9.337s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[9.337s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[9.338s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.338s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.339s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.339s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.340s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[9.340s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[9.340s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.446s] Listing '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[9.446s] Compiling '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...
+[9.446s] Listing '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[9.446s] Compiling '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py'...
+[9.446s] Compiling '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py'...
+[9.446s] Compiling '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...
+[9.446s] Compiling '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py'...
+[9.455s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.455s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.455s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.456s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.456s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.456s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.456s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[9.457s] -- Set runtime path of "/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""
+[9.457s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[9.457s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[9.457s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[9.458s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[9.458s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[9.458s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[9.458s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[9.458s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[9.458s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[9.459s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[9.459s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[9.459s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[9.459s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[9.459s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[9.460s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[9.460s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[9.460s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[9.460s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[9.460s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[9.460s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.461s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.461s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.461s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.461s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.461s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[9.462s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.462s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[9.462s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.462s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.462s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.462s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.463s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[9.463s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.463s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[9.463s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.463s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[9.463s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.464s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.464s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.464s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.464s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.464s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.464s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[9.465s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[9.465s] -- Installing: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[9.478s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_msgs

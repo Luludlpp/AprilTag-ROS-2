@@ -1,0 +1,24 @@
+[3.469s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/camera_calibration': PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/prefix_override:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/build install --record /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/install.log --single-version-externally-managed
+[4.296s] running egg_info
+[4.300s] writing ../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[4.302s] writing dependency_links to ../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[4.304s] writing entry points to ../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[4.306s] writing requirements to ../../build/camera_calibration/camera_calibration.egg-info/requires.txt
+[4.308s] writing top-level names to ../../build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[4.313s] reading manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[4.325s] writing manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[4.327s] running build
+[4.328s] running build_py
+[4.331s] running install
+[4.332s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.333s]   warnings.warn(
+[4.335s] running install_lib
+[4.339s] running install_data
+[4.341s] running install_egg_info
+[4.361s] removing '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-2.3.0-py3.10.egg-info' (and everything under it)
+[4.367s] Copying ../../build/camera_calibration/camera_calibration.egg-info to /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-2.3.0-py3.10.egg-info
+[4.369s] running install_scripts
+[4.455s] Installing cameracalibrator script to /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/camera_calibration
+[4.455s] Installing cameracheck script to /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/camera_calibration
+[4.456s] writing list of installed files to '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/install.log'
+[4.572s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/prefix_override:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/build install --record /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/camera_calibration/install.log --single-version-externally-managed

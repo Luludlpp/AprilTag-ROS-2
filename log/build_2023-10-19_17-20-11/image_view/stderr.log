@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:132: CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/image_view_nodes.dir/build.make:76: CMakeFiles/image_view_nodes.dir/src/disparity_view_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/image_view_nodes.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

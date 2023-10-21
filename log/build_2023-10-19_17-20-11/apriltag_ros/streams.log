@@ -1,0 +1,57 @@
+[0.281s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_ros': AMENT_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib/pkgconfig PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_ros
+[0.575s] -- The C compiler identification is GNU 11.4.0
+[0.768s] -- The CXX compiler identification is GNU 11.4.0
+[0.809s] -- Detecting C compiler ABI info
+[1.177s] -- Detecting C compiler ABI info - done
+[1.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.199s] -- Detecting C compile features
+[1.210s] -- Detecting C compile features - done
+[1.218s] -- Detecting CXX compiler ABI info
+[1.678s] -- Detecting CXX compiler ABI info - done
+[1.704s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.704s] -- Detecting CXX compile features
+[1.705s] -- Detecting CXX compile features - done
+[1.729s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.674s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.256s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.276s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.330s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.769s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.782s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.461s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.585s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.739s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.791s] -- Looking for pthread.h
+[5.238s] -- Looking for pthread.h - found
+[5.239s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.687s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.698s] -- Found Threads: TRUE  
+[6.529s] -- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.811s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.119s] -- Found apriltag_msgs: 0.1.0 (/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/share/apriltag_msgs/cmake)
+[7.227s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.176s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[8.261s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[8.415s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.615s] -- Added test 'clang_format' to check C / C++ code style
+[8.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.621s] -- Configured cppcheck include dirs: 
+[8.621s] -- Configured cppcheck exclude dirs and/or files: 
+[8.626s] -- Configuring done
+[8.728s] -- Generating done
+[8.754s] -- Build files have been written to: /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_ros
+[8.803s] Invoked command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib/pkgconfig PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_ros
+[8.804s] Invoking command in '/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_ros': AMENT_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/lib:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag/lib/pkgconfig PYTHONPATH=/home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ben/mp3_ros2_ws/src/AprilTag-ROS-2/build/apriltag_ros -- -j12 -l12
+[9.042s] [ 20%] [32mBuilding CXX object CMakeFiles/tags.dir/src/tag_functions.cpp.o[0m
+[9.124s] [ 40%] [32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o[0m
+[10.018s] [ 40%] Built target tags
+[10.195s] [ 60%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m
+[15.732s] [ 80%] [32m[1mLinking CXX executable apriltag_node[0m
+[16.197s] [ 80%] Built target apriltag_node
+[16.852s] gmake[2]: *** [CMakeFiles/AprilTagNode.dir/build.make:76: CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o] Interrupt
+[16.870s] gmake[1]: *** wait: No child processes.  Stop.
+[16.871s] gmake[1]: *** Waiting for unfinished jobs....
+[16.873s] gmake[1]: *** wait: No child processes.  Stop.
+[16.880s] gmake: *** [Makefile:146: all] Error 2
